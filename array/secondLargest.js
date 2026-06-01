@@ -1,3 +1,7 @@
+// Given an array of positive integers arr[] of size n, the task is to find second largest distinct element in the array.
+
+// Note: If the second largest element does not exist, return -1.
+
 function secondLargest(arr) {
   if (arr.length < 2) {
     return null; // Not enough elements to find the second largest
